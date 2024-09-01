@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 2,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "examples:required_primary_drop",
+                    "weight": 2
+				},
+                {
+                    "type": "minecraft:empty",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "stick",
+                    "weight": 3
+                }
+			]
+		}
+	]
+}
